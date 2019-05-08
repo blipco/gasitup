@@ -2,7 +2,7 @@
 
 ## **DESCRIPTION:**
 
--- This application allows the user to find out the price of gas for a road trip.
+This application allows the user to find out the price of gas for a road trip.
 
 This application uses 3 API's to generate the data to find the result which is 
 
@@ -27,6 +27,6 @@ the price of the total amount of gas that will be needed to complete the road tr
 
 ## **STYLING:**
 
--- Styling is broken up on each screen using React-Native StyleSheets.  The styling
+Styling is broken up on each screen using React-Native StyleSheets.  The styling
 
 that is constant throughout the application is in the constants folder.
