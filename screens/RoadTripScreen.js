@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
+import { ScrollView, StyleSheet, Text } from 'react-native';
 
 export default class RoadTripScreen extends React.Component {
   static navigationOptions = {
@@ -7,12 +7,13 @@ export default class RoadTripScreen extends React.Component {
   };
 
   render() {
+    return ( 
     <ScrollView style={styles.container}>
       <Text>
         TEST
       </Text>
     </ScrollView>
-    return ;
+    )
   }
 }
 
@@ -21,4 +22,4 @@ container: {
   flex: 1,
   marginTop: 15
 }
-});
+})
